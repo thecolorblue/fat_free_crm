@@ -72,6 +72,7 @@ th:
   due_this_week: "อาทิตย์นี้"
   due_next_week: "อาทิตย์หน้า"
   due_later: "วันหลัง"
+  due_specific_date: On Specific Date... # TODO
 
   completed_today: "วันนี้"
   completed_yesterday: "เมื่อวานนี้"
@@ -456,6 +457,7 @@ th:
   action_rescheduled: ใส่กำหนดการ
   action_updated: แก้ไข
   action_viewed: แสดง
+  action_won: won # TODO
   no_activity_records: ไม่พบบันทึกกิจกรรม
   recent_activity: กิจกรรมล่าสุด
   recent_activity_options: กิจกรรมล่าสุดเพิ่มเติม
@@ -469,6 +471,7 @@ th:
   # Views -> Common.
   #----------------------------------------------------------------------------
   add_note: เพิ่มบันทึก
+  save_note: Save Note # TODO
   add_note_help: Add a new note...
   added_ago: สร้าง {{value}} ที่ผ่านมา
   added_by: สร้าง {{time_ago}} ที่ผ่านมา โดย {{user}}
@@ -547,7 +550,10 @@ th:
   user_suspended: ระงับผู้ใช้
   user_suspended_on: ระงับตั้งแต่ {{value}}
   users: ผู้ใช้
+  users_small: ผู้ใช้ # TODO
 
+  # Pluralizations.
+  #----------------------------------------------------------------------------
   pluralize:
     contact:
       one: 'ผู้ติดต่อหนึ่งคน'
@@ -564,3 +570,16 @@ th:
     login:
       one: 'เข้าสู่ระบบหนึ่งครั้ง'
       other: 'เข้าสู่ระบบ {{count}} ครั้ง'
+
+  # Custom date/time formats.
+  #----------------------------------------------------------------------------
+  date:
+    formats:
+      mmddyyyy: "%m/%d/%Y"
+      mmdd: "%b %e"
+      mmddyy: "%b %e, %Y"
+
+  time:
+    formats:
+      mmddhhss: "%b %e at %l:%M%p"
+      

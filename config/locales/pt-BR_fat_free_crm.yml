@@ -72,6 +72,7 @@ pt-BR:
   due_this_week: Esta semana
   due_next_week: Próxima semana
   due_later: Depois
+  due_specific_date: Em Data Específica... # ?!
 
   completed_today: Hoje
   completed_yesterday: Ontem
@@ -250,7 +251,7 @@ pt-BR:
 
   # Views -> Authenticate.
   #----------------------------------------------------------------------------
-  forgot_password: Esqueceu a senha?
+  forgot_password: Esqueceu a senha
   login: Login
   no_account: Não tem uma conta?
   remember_me: Me lembrar
@@ -456,6 +457,7 @@ pt-BR:
   action_rescheduled: reagendado
   action_updated: atualziado
   action_viewed: visualizado
+  action_won: consuistado
   no_activity_records: Nenhum registro de atividade encontrado.
   recent_activity: Atividade recente
   recent_activity_options: Opções de atividade recente
@@ -469,6 +471,7 @@ pt-BR:
   # Views -> Common.
   #----------------------------------------------------------------------------
   add_note: Adicionar nota
+  save_note: Salvar nota
   add_note_help: Adicionar nova nota...
   added_ago: adicionado(a) há {{value}} atrás
   added_by: adicionado(a) há {{time_ago}} atrás por {{user}} 
@@ -547,7 +550,10 @@ pt-BR:
   user_suspended: Suspenso
   user_suspended_on: suspenso em {{value}}
   users: Usuários
+  users_small: usuários
 
+  # Pluralizations.
+  #----------------------------------------------------------------------------
   pluralize:
     contact: 
       one: '1 contato'
@@ -564,3 +570,15 @@ pt-BR:
     login:
       one: '1 login'
       other: '{{count}} logins'
+
+  # Custom date/time formats.
+  #----------------------------------------------------------------------------
+  date:
+    formats:
+      mmddyyyy: "%m/%d/%Y"
+      mmdd: "%b %e"
+      mmddyy: "%b %e, %Y"
+
+  time:
+    formats:
+      mmddhhss: "%b %e at %l:%M%p"
