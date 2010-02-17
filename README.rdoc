@@ -6,6 +6,7 @@ on daily basis.
 
 Here are the steps to get Fat Free CRM up and running on your system.
 
+A few small changes have been made to work with heroku.  
 
 === System Requirements
 
